@@ -8,10 +8,10 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class PropertyDetailsComponent {
 
-  propertyId = '';
-  constructor (private _activedRoute: ActivatedRoute){
-    this._activedRoute.params.subscribe((p) => {
-      this.propertyId = p["id"];
-    })
-  }
+  // propertyId = '';
+  // constructor (private _activedRoute: ActivatedRoute){
+  //   this._activedRoute.params.subscribe((p) => {
+  //     this.propertyId = p["id"];
+  //   })
+  // }
 }

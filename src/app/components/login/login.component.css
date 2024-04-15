@@ -34,6 +34,7 @@ p {
 }
 h4 {
   font-weight: 600;
+  color: white;
 }
 h6 span{
   padding: 0 20px;
@@ -75,7 +76,7 @@ h6 span{
   border-radius: 50%;
   color: #ffeba7;
   background-color: #102770;
-  font-family: 'unicons';
+  font-family: 'Poppins', sans-serif;
   content: '\eb4f';
   z-index: 20;
   top: -10px;
@@ -297,9 +298,9 @@ h6 span{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-  }
-  
-  .checkbox-group label {
+}
+
+.checkbox-group label {
     display: inline-block;
     position: relative;
     padding-left: 30px;
@@ -307,14 +308,14 @@ h6 span{
     cursor: pointer;
     font-size: 14px;
     color: #c4c3ca;
-  }
-  
-  .checkbox-group input[type="checkbox"] {
+}
+
+.checkbox-group input[type="checkbox"] {
     position: absolute;
     left: -9999px;
-  }
-  
-  .checkbox-group input[type="checkbox"] + label:before {
+}
+
+.checkbox-group input[type="checkbox"] + label:before {
     content: '';
     position: absolute;
     left: 0;
@@ -325,25 +326,24 @@ h6 span{
     border: 1px solid #c4c3ca;
     background-color: transparent;
     transition: background-color 0.3s ease;
-  }
-  
-  .checkbox-group input[type="checkbox"]:checked + label:before {
+}
+
+.checkbox-group input[type="checkbox"]:checked + label:before {
     background-color: #ffeba7;
-  }
-  
-  .checkbox-group input[type="checkbox"] + label:after {
+}
+
+.checkbox-group input[type="checkbox"] + label:after {
     content: '\eb4f';
     position: absolute;
     left: 3px;
     top: -1px;
-    font-family: 'unicons';
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #102770;
     opacity: 0;
     transition: opacity 0.3s ease;
-  }
-  
-  .checkbox-group input[type="checkbox"]:checked + label:after {
+}
+
+.checkbox-group input[type="checkbox"]:checked + label:after {
     opacity: 1;
-  }
-  
+}
