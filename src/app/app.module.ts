@@ -9,6 +9,13 @@ import { HomeComponent } from './components/home/home.component';
 import { SearchComponent } from './components/search/search.component';
 import { PropertyDetailsComponent } from './components/property-details/property-details.component';
 import { PropertyPostComponent } from './components/property-post/property-post.component';
+import { AppRoutesModules } from './modules/app.routes';
+import { BuyerComponent } from './components/buyer/buyer.component';
+import { SellerComponent } from './components/seller/seller.component';
+import { BuyerSellerComponent } from './components/buyer-seller/buyer-seller.component';
+import { AdminComponent } from './components/admin/admin.component';
+import { CreatePropertyComponent } from './components/create-property/create-property.component';
+import { UpdatePropertyComponent } from './components/update-property/update-property.component';
 
 @NgModule({
   declarations: [
@@ -18,10 +25,17 @@ import { PropertyPostComponent } from './components/property-post/property-post.
     HomeComponent,
     SearchComponent,
     PropertyDetailsComponent,
-    PropertyPostComponent
+    PropertyPostComponent,
+    BuyerComponent,
+    SellerComponent,
+    BuyerSellerComponent,
+    AdminComponent,
+    CreatePropertyComponent,
+    UpdatePropertyComponent
   ],
   imports: [
     BrowserModule,
+    AppRoutesModules,
     AppRoutingModule
   ],
   providers: [
