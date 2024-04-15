@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class PropertyPostComponent {
 
+  uniqueId: number = Math.floor(Math.random() * 1000); // Generate a random ID
 }
