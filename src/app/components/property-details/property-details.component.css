@@ -1,0 +1,5 @@
+.card-image {
+    width: 100%; /* Set the width to 100% to fill the column */
+    height: 200px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}

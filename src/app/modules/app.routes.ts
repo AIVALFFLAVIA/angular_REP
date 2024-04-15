@@ -17,7 +17,7 @@ const routes: Routes = [
 
     {path:'', component: HomeComponent},
     {path:'home', component: HomeComponent},
-    {path:'property/details:id', component: PropertyDetailsComponent},
+    {path:'property/details', component: PropertyDetailsComponent},
     {path:'search', component: SearchComponent},
     {path:'buyer', component: BuyerComponent},
     {path:'seller', component: SellerComponent},
