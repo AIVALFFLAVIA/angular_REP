@@ -11,7 +11,10 @@ import { AdminComponent } from "../components/admin/admin.component";
 import { CreatePropertyComponent } from "../components/create-property/create-property.component";
 import { UpdatePropertyComponent } from "../components/update-property/update-property.component";
 import { LoginComponent } from "../components/login/login.component";
-import { SignupComponent } from "../components/signup/signup.component";
+import { ReservationRequestsComponent } from "../components/reservation-requests/reservation-requests.component";
+import { NotAuthorizedComponent } from "../components/not-authorized/not-authorized.component";
+import { ReservationsComponent } from "../components/reservations/reservations.component";
+
 
 const routes: Routes = [
 
@@ -23,10 +26,13 @@ const routes: Routes = [
     {path:'seller', component: SellerComponent},
     {path:'buyer-seller', component: BuyerSellerComponent},
     {path:'admin', component: AdminComponent},
-    {path:'create/property:id', component: CreatePropertyComponent},
-    {path:'update/property:id', component: UpdatePropertyComponent},
+    {path:'create/property', component: CreatePropertyComponent},
+    {path:'update/property', component: UpdatePropertyComponent},
     {path:'login', component: LoginComponent},
-    {path:'signup', component: SignupComponent},
+    {path:'reservation/requests', component: ReservationRequestsComponent},
+    {path:'not-authorized', component: NotAuthorizedComponent},
+    {path:'reservations', component: ReservationsComponent},
+   
 
 
 ] 
