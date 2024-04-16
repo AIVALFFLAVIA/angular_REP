@@ -1,0 +1,30 @@
+.property-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-check {
+    margin-top: 10px;
+  }
+  
+  .btn-primary {
+    margin-top: 20px;
+  }
+  
+  /* Optional styles for file input */
+  .form-control-file {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #fff;
+    box-shadow: none;
+  }
+  
