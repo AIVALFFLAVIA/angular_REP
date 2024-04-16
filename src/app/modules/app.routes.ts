@@ -14,7 +14,7 @@ import { LoginComponent } from "../components/login/login.component";
 import { ReservationRequestsComponent } from "../components/reservation-requests/reservation-requests.component";
 import { NotAuthorizedComponent } from "../components/not-authorized/not-authorized.component";
 import { ReservationsComponent } from "../components/reservations/reservations.component";
-
+import { MyReservationComponent } from "../components/my-reservation/my-reservation.component";
 
 const routes: Routes = [
 
@@ -32,6 +32,7 @@ const routes: Routes = [
     {path:'reservation/requests', component: ReservationRequestsComponent},
     {path:'not-authorized', component: NotAuthorizedComponent},
     {path:'reservations', component: ReservationsComponent},
+    {path:'my-reservation', component: MyReservationComponent}
    
 
 

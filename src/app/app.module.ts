@@ -21,6 +21,7 @@ import { LoginComponent } from './components/login/login.component';
 import { ReservationRequestsComponent } from './components/reservation-requests/reservation-requests.component';
 import { NotAuthorizedComponent } from './components/not-authorized/not-authorized.component';
 import { ReservationsComponent } from './components/reservations/reservations.component';
+import { MyReservationComponent } from './components/my-reservation/my-reservation.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ReservationsComponent } from './components/reservations/reservations.co
     LoginComponent,
     ReservationRequestsComponent,
     NotAuthorizedComponent,
-    ReservationsComponent
+    ReservationsComponent,
+    MyReservationComponent
   ],
   imports: [
     BrowserModule,
