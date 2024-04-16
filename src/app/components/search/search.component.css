@@ -1,0 +1,9 @@
+.details-btn {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  .details-btn i {
+    margin-right: 5px; /* Adjust as needed */
+  }
+  
