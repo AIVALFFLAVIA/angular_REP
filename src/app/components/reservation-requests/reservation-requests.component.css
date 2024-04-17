@@ -1,0 +1,39 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .reservation-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    overflow: hidden; /* Clear floats */
+  }
+  
+  .property-details {
+    width: 70%;
+    float: left;
+  }
+  
+  .property-details h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .property-details p {
+    margin: 0;
+  }
+  
+  .reservation-actions {
+    width: 30%;
+    float: right;
+    text-align: right;
+  }
+  
+  .reservation-actions a {
+    margin-left: 10px;
+  }
+  
