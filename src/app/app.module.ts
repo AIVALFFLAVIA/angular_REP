@@ -16,6 +16,12 @@ import { BuyerSellerComponent } from './components/buyer-seller/buyer-seller.com
 import { AdminComponent } from './components/admin/admin.component';
 import { CreatePropertyComponent } from './components/create-property/create-property.component';
 import { UpdatePropertyComponent } from './components/update-property/update-property.component';
+import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component';
+import { ReservationRequestsComponent } from './components/reservation-requests/reservation-requests.component';
+import { NotAuthorizedComponent } from './components/not-authorized/not-authorized.component';
+import { ReservationsComponent } from './components/reservations/reservations.component';
+import { MyReservationComponent } from './components/my-reservation/my-reservation.component';
 
 @NgModule({
   declarations: [
@@ -31,12 +37,18 @@ import { UpdatePropertyComponent } from './components/update-property/update-pro
     BuyerSellerComponent,
     AdminComponent,
     CreatePropertyComponent,
-    UpdatePropertyComponent
+    UpdatePropertyComponent,
+    LoginComponent,
+    ReservationRequestsComponent,
+    NotAuthorizedComponent,
+    ReservationsComponent,
+    MyReservationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutesModules,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration()
